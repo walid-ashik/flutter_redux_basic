@@ -34,6 +34,10 @@ class DrawerMenu extends StatelessWidget {
           getListTile('Settings', onTap: () {
             Navigator.pushReplacementNamed(context, '/settings');
           }),
+          getLine(),
+          getListTile('Counter', onTap: () {
+            Navigator.pushReplacementNamed(context, '/counter');
+          }),
         ],
       ),
     );
